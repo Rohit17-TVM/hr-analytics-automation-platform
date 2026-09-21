@@ -1,82 +1,105 @@
-# hr-analytics-automation-platform
-HR Analytics Automation Platform using Excel, Power BI, Python, DAX, Pandas, Seaborn and Matplotlib.
-
 # HR Analytics Automation Platform
 
-## Project Overview
+An end-to-end HR analytics solution using Excel, Power BI, Python, DAX, Pandas, Seaborn, Matplotlib, and xlwings to analyse workforce composition, employee attrition, compensation, and employee-related factors.
 
-The HR Analytics Automation Platform is an end-to-end workforce analytics solution developed using Excel, Power BI, Python, and automation techniques. The project provides actionable insights into employee attrition, workforce demographics, compensation trends, and employee satisfaction.
+---
+
+## Business Problem Statement
+
+Organizations need to understand why employees leave, how compensation varies across departments, and which workforce characteristics are associated with employee attrition.
+
+However, HR data is often distributed across multiple employee attributes, making it difficult to:
+
+- Monitor workforce KPIs consistently
+- Identify departments with different attrition patterns
+- Understand compensation differences across employee groups
+- Analyse the relationship between overtime and attrition
+- Examine employee satisfaction and its relationship with other workforce metrics
+- Convert raw HR data into actionable management insights
+
+The business needs an analytics solution that consolidates workforce data, automates analysis, and presents key HR metrics through interactive dashboards.
+
+---
 
 ## Business Objective
 
-To analyse workforce trends, employee attrition, compensation patterns, and employee satisfaction metrics to support data-driven HR decision-making through interactive dashboards and advanced analytics.
+The objective of this project is to build an HR Analytics Automation Platform that transforms employee data into actionable workforce insights.
+
+The solution focuses on:
+
+- Workforce composition and demographics
+- Employee attrition patterns
+- Compensation analysis
+- Department-level workforce analysis
+- Overtime and attrition analysis
+- Employee satisfaction analysis
+- Correlation analysis using Python
+
+The platform is designed to support HR and management teams in monitoring workforce trends and identifying areas that may require further investigation.
+
+---
+
+## Business Questions
+
+The analysis addresses the following business questions:
+
+1. How large is the current workforce?
+2. What is the overall employee attrition rate?
+3. How does attrition vary across departments?
+4. How does average salary differ across departments?
+5. Is overtime associated with higher employee attrition?
+6. How is the workforce distributed across demographic groups?
+7. What relationship exists between employee tenure and compensation?
+8. How does job satisfaction relate to other workforce metrics?
+9. Which workforce factors should HR investigate further for retention planning?
+
+---
+
+## Project Overview
+
+The HR Analytics Automation Platform is an end-to-end workforce analytics project developed using Excel, Power BI, Python, and automation techniques.
+
+The project combines:
+
+**Data Preparation → Analysis → KPI Reporting → Interactive Dashboarding → Advanced Analytics**
+
+The solution provides a centralized analytical view of workforce metrics and employee attrition patterns.
+
+---
 
 ## Tools & Technologies
 
-* Excel
-* Power BI
-* Python
-* Pandas
-* Seaborn
-* Matplotlib
-* DAX
-* xlwings
+- Excel
+- Power BI
+- DAX
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- xlwings
 
-## Key Features
+---
 
-* Workforce KPI Monitoring
-* Attrition Analysis
-* Compensation Analysis
-* Department-Level Insights
-* Interactive Dashboarding
-* Python Correlation Analysis
+## Data Analytics Workflow
 
-## Key KPIs
-
-* Total Employees
-* Attrition Rate
-* Average Salary
-* Average Tenure
-
-## Dashboard Page
-
-### Executive Summary
-
-Provides an overview of workforce KPIs and employee metrics.
-
-### Workforce Insights
-
-Analyses workforce distribution across departments and demographics.
-
-### Compensation & Attrition Analysis
-
-Examines salary trends, overtime impact, and employee retention patterns.
-
-### Advanced Analytics
-
-Python-based correlation heatmap developed using Pandas, Seaborn, and Matplotlib.
-
-## Key Findings
-
-* Employee tenure positively correlates with salary growth.
-* Attrition varies across departments.
-* Overtime influences employee attrition.
-* Job satisfaction demonstrates weaker correlations with compensation.
-
-## Recommendations
-
-* Strengthen retention programs.
-* Reduce overtime burden.
-* Improve employee engagement initiatives.
-* Implement predictive HR analytics.
-
-## Future Enhancements
-
-* Predictive Attrition Modelling
-* Automated Reporting
-* Real-Time Dashboard Refresh
-* Cloud Deployment
-* HRMS Integration
+```text
+HR Employee Dataset
+        ↓
+Excel Data Preparation
+        ↓
+Data Cleaning & Transformation
+        ↓
+Power BI Data Model
+        ↓
+DAX Measures & KPIs
+        ↓
+Interactive HR Dashboards
+        ↓
+Python Statistical / Correlation Analysis
+        ↓
+Business Insights
+        ↓
+HR Recommendations
 
 ## Author
 
